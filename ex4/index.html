@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+        <title>Jogo adivinhe o número</title>
+        <style>
+          html {
+            font-family: sans-serif;
+          }
+    
+          body {
+            width: 50%;
+            max-width: 800px;
+            min-width: 480px;
+            margin: 0 auto;
+          }
+    
+          .lastResult {
+            color: white;
+            padding: 3px;
+          }
+        </style>
+      </head>
+    
+     
+</head>
+<body>
+    <h1>Jogo Adivinhe um número</h1>
+    <p>
+      selecione um numero de 1 a 20 diremos se esta errado ou correto
+    </p>
+    <div class="form">
+      <label for="guessField">Digite seu palpite: </label
+      ><input type="text" id="guessField" class="guessField" />
+      <input type="submit" value="Enviar palpite" class="guessSubmit" />
+    </div>
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+  
+</html>

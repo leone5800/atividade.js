@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conversor de Temperatura</title>
+</head>
+<body>
+
+<h2>Conversor de Temperatura</h2>
+
+<p>Digite a temperatura:</p>
+
+<input type="number" id="inputTemp">
+<select id="tempType">
+  <option value="celsius">Celsius</option>
+  <option value="fahrenheit">Fahrenheit</option>
+</select>
+
+<button onclick="converter()">Converter</button>
+
+<p id="resultado"></p>
+
+<script>
+function converter() {
+    // Obter o valor da temperatura do input
+    var temp = parseFloat(document.getElementById("inputTemp").value);
+
+    // Obter o tipo de temperatura selecionado
+    var tipoTemp = document.getElementById("tempType").value;
+
+    // Realizar a conversão
+    var resultado;
+    if (tipoTemp === "celsius") {
+        resultado = (temp - 32) * 5/9;
+        resultado = resultado.toFixed(2) + " Celsius";
+    } else {
+        resultado = (temp * 9/5) + 32;
+        resultado = resultado.toFixed(2) + " Fahrenheit";
+    }
+
+    // Exibir o resultado
+    document.getElementById("resultado").innerHTML = resultado;
+}
+</script>
+
+</body>
+</html>
