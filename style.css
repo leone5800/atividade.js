@@ -1,0 +1,234 @@
+
+
+:root {
+    --body-bg-color: #ff0000;
+    --purple: #000000;
+    --black: #ffffff;
+
+  }
+  
+  
+  #avatar2 {
+  
+    width: 200px;
+    height: 190px;
+  
+  
+  }
+  
+ * {
+  margin: -2;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  }
+  
+  /*  */
+  
+  .container {
+    width: 100vw;
+    height: 100vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container .tree-container {
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    justify-content: center;
+  }
+
+  #cor{
+    background-image: linear-gradient(
+    red,
+    black,
+
+    );
+  }
+  
+  .tree-container .avatar {
+    width: 213px;
+    height: 213px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    border: 1px solid var();
+    border-radius: 50%;
+  }
+  
+  
+  .tree-container .instagram-user {
+    margin-top: 200vw;
+    color: var(--purple);
+  }
+  
+  .tree-container .links-container {
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .links-container .link {
+    margin-top: 16px;
+    width: 325px;
+  
+    border: 2px solid var(--purple);
+    border-radius: 4px;
+  
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+  
+    padding: 12px 0;
+  
+    transition: ease 0.3s;
+  }
+  
+  .links-container .link:hover {
+    background: var(--purple);
+    color: var(--body-bg-color);
+  
+    transition: ease 0.5s;
+  }
+  
+  
+  .socials-container .social {
+    transform: scale(0.9);
+  
+    transition: ease 0.2s;
+  }
+  
+  .socials-container .social:hover {
+    transform: scale(1);
+  }
+  body,
+  html {
+    font-family: "Poppins", sans-serif;
+  
+  
+  
+  
+ 
+   background-image: url(https://www.wallpapertip.com/wmimgs/10-106648_storm-clouds-with-lightning.jpg);
+ 
+   width: 1000px;
+  height: 1000px; 
+  
+  }
+  
+
+  
+  a{
+ 
+ 
+      
+  
+    background-clip: text;
+    color: rgb(167, 0, 0, 0.737)
+ 
+
+
+
+
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .tree-container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.tree-container .avatar {
+  width: 213px;
+  height: 213px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid var();
+  border-radius: 50%;
+}
+
+.tree-container .avatar img {
+  width: 100px;
+  height: 100px;
+
+  border-radius: 50%;
+}
+
+.tree-container .instagram-user {
+  margin-top: 0px;
+  color: var(--purple);
+
+}
+
+.tree-container .links-container {
+  margin-top: 15px;
+  display: center;
+  flex-direction: column;
+}
+
+.links-container .link {
+  margin-top: 16px;
+  width: 300px;
+
+  border: 1px solid var(--purple);
+  border-radius: 100px;
+
+  font-size: 13px;
+  text-transform: uppercase;
+  text-align: center;
+
+  padding: 10px 0;
+
+  transition: ease 0.3s;
+}
+
+.links-container .link:hover {
+  background: var(--purple);
+  color: var(--body-bg-color);
+
+  transition: ease 0.5s;
+}
+
+.tree-container .socials-container {
+  margin-top: 68px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 29px;
+}
+
+.socials-container .social {
+  transform: scale(0.9);
+
+  transition: ease 0.2s;
+}
+
+.socials-container .social:hover {
+  transform: scale(1);
+}
+.tree-container .nome {
+  margin-top: 100px;
+  color: var(--purple);
+  width: 10022px;
+  height: 100px;}
+  
